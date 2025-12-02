@@ -30,6 +30,7 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "activemodel", "~> 7.2"
   spec.add_dependency "activesupport", "~> 7.2"
   spec.add_dependency "jsonpath", "~> 1.1"
 end
